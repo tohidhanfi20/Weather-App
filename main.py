@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-API_KEY = "b3d40ed8e2b9789df1180b9ed23419ab"  # Replace with your API key
+API_KEY = ""  # Replace with your API key
 
 @app.route("/", methods=["GET", "POST"])
 def home():
